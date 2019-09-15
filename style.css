@@ -1,0 +1,35 @@
+.div-flex{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 100vh;
+
+}
+
+.one{
+    background: brown;
+    flex-grow: 2;
+}
+ .two{
+     background: yellow;
+     flex-grow: 1;
+     text-align: center;
+
+ }
+
+ .three{
+     background: green;
+     flex-grow: 2;
+ }
+  .two img {
+      height: 100px;
+      width: 100px;
+      margin: 10px auto;
+
+  }
+  .two p {
+      width: 300px;
+      margin: auto;
+      text-align: left;
+  }
